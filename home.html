@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steve Ngole — Software Developmet student</title>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="logo">Steve<span>.</span>Ngole</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">My Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="prompt">&gt; who am i?</div>
+        <h1>Steve Ngole,<br>software developer.</h1>
+        <p></p>
+        <div class="btn-row">
+          <a href="#works" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div>
+        <div class="avatar-frame">
+          <img src="pic/profile.jpg" alt="steve">
+          <div class="avatar-tag">open to work</div>
+        </div>
+      </div>
+    </div>
+    <div class="stack-row">
+      <p>&gt; tools I reach for</p>
+      <div class="stack-badges">
+        <div class="badge">HTML</div>
+        <div class="badge">CSS</div>
+        <div class="badge">JavaScript</div>
+        <div class="badge">Git</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">01</div>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I'm a software developer who is passionate in creating products that actually solve the problem they were built for.</p>
+        <p>Outside of client work, I'm a studen at <b>HIBMAT University Institute Buea</b></p>
+        <h1>Academic Journey;</h1>
+        <H2>Secondary School:</H2>
+          <p>
+          BABICAST Bafoussam, COPOBIT Bafoussam,GHS Buea,</p>
+        <h2>High School:</h2>
+          <p>GHS Buea</p>
+        <H2>University</H2>
+        <p>HIBMAT University Institute Buea</p>
+
+        </ul>
+      </div>
+      <ul class="facts">
+        <li><span>Based in</span><span>Buea, Cameroon</span></li>
+        <li><span>Experience</span><span>+6 months</span></li>
+        <li><span>Focus</span><span>Full-stack web</span></li>
+        <li><span>Currently</span><span>Open to freelance</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="works">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">02</div>
+      <h2>My Works</h2>
+    </div>
+    <div class="works-grid">
+      <div class="work-card">
+        <div class="work-top">
+          <h3>Smart Diet</h3>
+          <span class="work-index">01</span>
+        </div>
+        <p>A website used to track ones weight status and provides a solution depending on the condition. alo equiped with a BMI CALCULATOR</p>
+        <div class="tags"><span class="tag">html</span><span class="tag">css</span><span class="tag">JavaScript</span></div>
+      </div>
+      <div class="work-card">
+        <div class="work-top">
+          <h3>My Portfolio</h3>
+          <span class="work-index">02</span>
+        </div>
+        <p>A brief presentation of myelf.</p>
+        <div class="tags"><span class="tag">html</span><span class="tag">css</span><span class="tag">javascript</span></div>
+      </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">03</div>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-inner">
+      <div>
+        <p>Have a project in mind or just want to say hi? My inbox is open.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:stevengole41966@gmail.com">stevengole41966@gmail.com</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener">github.com/steve ngole</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener">linkedin.com/in/steve ngole</a></li>
+        </ul>
+      </div>
+      <form onsubmit="event.preventDefault(); alert('This is a demo form — connect it to a service like Formspree to make it live.');">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <textarea placeholder="Your message" required></textarea>
+        <button type="submit" class="btn btn-primary" style="border:none;align-self:flex-start;">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Steve Ngole. Built with HTML, CSS &amp; JS.</div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
